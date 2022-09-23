@@ -61,4 +61,24 @@ git config --global --list
 1. git Log: 관련 로그
 2. git diff: 무엇이 달라졌는 지 보여준다.
 
+</br>
+
+# .gitignore
+## 버전 관리를 하지 않는 프로그램들의 목록들을 정리하는 파일
+## 'git add' 전에, 작성해야 한다.
+
+</br>
+
+### .gitignore 쉽게 작성하기.
+
+[gitignore](https://www.toptal.com/developers/gitignore/)
+
+</br>
+
+### 알아두어야 하는 패턴 규칙
+1. '#' 은 주석
+2. '/' 시작시, 재귀적으로 적용되지 않는다. 즉, 해당 폴더만 버전관리를 안한다.
+3. '/' 로 끝날시, 디렉토리를 의미한다.
+4. '!' 로 시작시 무시하지 않는다. 즉, 버전관리를 한다.
+
 
