@@ -57,3 +57,8 @@ git config --global --list
     - Staged: Staging Area에 올라간 상태.
 
 
+### Git Log
+1. git Log: 관련 로그
+2. git diff: 무엇이 달라졌는 지 보여준다.
+
+
